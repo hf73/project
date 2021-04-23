@@ -1,0 +1,33 @@
+/*DEVELOPER: Hany Fathy, IS117-002, Spring, 2021 */
+
+.card laligacard{
+    background: #fffded;
+}
+
+body{
+    background: #fffded;
+}
+
+table{
+    width:100%;
+}
+
+th{
+    background:#4040a1;
+    color:white;
+    font-size:150%;
+    text-align: center;
+}
+td{
+text-align: center;
+padding-bottom:15px;
+padding-top:10px;
+
+}
+
+table,td{
+    border-bottom: 1px solid black;
+    border-right:1px solid black;
+    border-left:1px solid black;
+    text-align: center;
+}
