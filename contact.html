@@ -1,0 +1,142 @@
+<!-- DEVELOPER: Hany Fathy, IS117-002, Spring 2021 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Soccer Website</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="images/soccerlogo.png" alt = "Logo" height="75"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fixtures</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="standings/standings.html">Standings</a>
+                    </li>
+
+-->
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            Fixtures
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="fixtures/Bundesliga.html">Bundesliga</a>
+                            <a class="dropdown-item" href="fixtures/Ligue1.html">Ligue 1</a>
+                            <a class="dropdown-item" href="fixtures/LaLiga.html">La Liga</a>
+                            <a class="dropdown-item" href="fixtures/PremierLeague.html">Premier League</a>
+                            <a class="dropdown-item" href="fixtures/SeriesA.html">Series A</a>
+                        </div>
+                    </li>
+
+                    <!-- Dropdown 2-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            Standings
+                        </a>
+                        <div class="dropdown-menu">
+
+                            <a class="dropdown-item" href="standings/bundesligastandings.html">Bundesliga</a>
+                            <a class="dropdown-item" href="standings/lige1standings.html">Ligue 1</a>
+                            <a class="dropdown-item" href="standings/laligastandings.html">La Liga</a>
+                            <a class="dropdown-item" href="standings/premierleaguestandings.html">Premier League</a>
+                            <a class="dropdown-item" href="standings/seriesastandings.html">Series A</a>
+                        </div>
+                    </li>
+
+                    <!-- Dropdown 3-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="contact.html" id="navbardrop"
+                           data-toggle="dropdown">
+                            Contact Us
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="contact.html">Contact Us</a>
+                            <a class="dropdown-item" href="aboutus.html">About Us</a>
+                        </div>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+</div>
+    <div class="container">
+    <div class="row">
+        <form action="">
+            <div class="form-group">
+                <label for="firstname">First Name:</label>
+                <input type="text" class="form-control" id="firstname"
+                       placeholder="First name" name="firstname">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name:</label>
+                <input type="text" class="form-control" id="lastname"
+                       placeholder="Last name" name="lastname">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email"
+                       placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input"
+                           type="checkbox" name="subscribe"> Subscribe
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    </div>
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Art Hendela, 2020 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>
