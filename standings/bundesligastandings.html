@@ -1,0 +1,148 @@
+<!-- DEVELOPER: Hany Fathy, IS117-002, Spring 2021 -->
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap 4 Page</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="../css/main.css" rel="stylesheet">
+
+
+</head>
+
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="../index.html"><img src="../images/soccerlogo.png" alt = "Logo" height="75"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fixtures</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="standings/standings.html">Standings</a>
+                    </li>
+
+-->
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            Fixtures
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="../fixtures/Bundesliga.html">Bundesliga</a>
+                            <a class="dropdown-item" href="../fixtures/Ligue1.html">Ligue 1</a>
+                            <a class="dropdown-item" href="../fixtures/LaLiga.html">La Liga</a>
+                            <a class="dropdown-item" href="../fixtures/PremierLeague.html">Premier League</a>
+                            <a class="dropdown-item" href="../fixtures/SeriesA.html">Series A</a>
+                        </div>
+                    </li>
+
+                    <!-- Dropdown 2-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            Standings
+                        </a>
+                        <div class="dropdown-menu">
+
+                            <a class="dropdown-item" href="../standings/bundesligastandings.html">Bundesliga</a>
+                            <a class="dropdown-item" href="../standings/lige1standings.html">Ligue 1</a>
+                            <a class="dropdown-item" href="../standings/laligastandings.html">La Liga</a>
+                            <a class="dropdown-item" href="../standings/premierleaguestandings.html">Premier League</a>
+                            <a class="dropdown-item" href="../standings/seriesastandings.html">Series A</a>
+                        </div>
+                    </li>
+
+                    <!-- Dropdown 3-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../contact.html" id="navbardrop"
+                           data-toggle="dropdown">
+                            Contact Us
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="../contact.html">Contact Us</a>
+                            <a class="dropdown-item" href="../aboutus.html">About Us</a>
+                        </div>
+                    </li>
+
+
+
+
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+
+    <head>
+
+    <title>BundesligaFixtures</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="../css/fixturetable.css" rel="stylesheet">
+
+    <div class="Bundesliga">
+        <div class="card-body">
+            <h5 class="card-title">Bundesliga Fixture Redirect</h5>
+            <p class="card-text">Press "FIXTURES" to be redirected to Bundesliga Fixtures </p>
+            <a href="../fixtures/Bundesliga.html" class="btn btn-primary">FIXTURES</a>
+        </div>
+    </div>
+    </head>
+
+<div class="ptable">
+    <h1 class="heading">Standings</h1>
+    <table>
+        <link href="../css/fixturetable.css" rel="stylesheet">
+        <tr><th>Team</th><th>Rank</th><th>Points</th></tr>
+        <tr><td>Bayern Munich</td><td>1</td><td>71</td></tr>
+        <tr><td>RB Leipzig</td><td>2</td><td>61</td></tr>
+        <tr><td>Eintracht Frankfurt</td><td>3</td><td>56</td></tr>
+        <tr><td>VfL Wolfsburg</td><td>4</td><td>54</td></tr>
+        <tr><td>Borussia Dortmund</td><td>5</td><td>49</td></tr>
+        <tr><td>Bayer Leverkusen</td><td>6</td><td>47</td></tr>
+        <tr><td>Monchengladbach</td><td>7</td><td>43</td></tr>
+        <tr><td>Union Berlin</td><td>8</td><td>43</td></tr>
+        <tr><td>SC Freiburg</td><td>9</td><td>40</td></tr>
+        <tr><td>VfB Stuttgart</td><td>10</td><td>39</td></tr>
+        <tr><td>FC Augsburg</td><td>11</td><td>33</td></tr>
+        <tr><td>1899 Hoffenheim</td><td>12</td><td>32</td></tr>
+        <tr><td>Werder Bremen</td><td>13</td><td>30</td></tr>
+        <tr><td>Arminia Bielefeld</td><td>14</td><td>30</td></tr>
+        <tr><td>FSV Mainz 05</td><td>15</td><td>28</td></tr>
+        <tr><td>Hertha BSC Berlin</td><td>16</td><td>26</td></tr>
+        <tr><td>1. FC Koln</td><td>17</td><td>26</td></tr>
+        <tr><td>FC Schalke 04</td><td>18</td><td>13</td></tr>
+
+    </table>
+</div>
